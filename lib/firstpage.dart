@@ -23,7 +23,7 @@ class _FirstState extends State<First> {
           decoration: BoxDecoration(image: DecorationImage(
               image: AssetImage('assets/plainpurple.jpg'), fit: BoxFit.cover)),
 
-          padding: const EdgeInsets.only(top: 200.0, left: 50, right: 50),
+          padding: const EdgeInsets.only(top: 150.0, left: 50, right: 50),
           //       color: Colors.purpleAccent[100],
           child: Column(
             children: [
@@ -44,7 +44,7 @@ class _FirstState extends State<First> {
                 width: 300,
               ),
               Container(
-                padding: const EdgeInsets.only(top: 100.0, left: 50, right: 50),
+                padding: const EdgeInsets.only(top: 80.0, left: 50, right: 50),
                 child: RaisedButton(
                   onPressed: () {
                     Navigator.pushNamed(context, 'login');
